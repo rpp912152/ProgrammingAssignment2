@@ -2,7 +2,7 @@
 
 
 ## This function creates a matrix having list of commands like setting a matrix, getting the value of matrix,setting the value of inverse and getting the value of inverse.
-
+##rpp912152@gmail.com
 makeCacheMatrix <- function(x = matrix()) {
     inv<- NULL
     set <- function(y) {
