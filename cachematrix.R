@@ -16,8 +16,6 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set=set,get=get,setInverse = setInverse,
      getInverse = getInverse)
 }
-
-
 ## This function will calculate the inverser of above matrix. If the inverse is already calculated , it will fetch from cache and the calculation is skipped.
 
 cacheSolve <- function(x, ...) {
